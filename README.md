@@ -44,6 +44,9 @@ Follow these steps to set up the project locally on your machine.
     * Click `Sync Project with Gradle Files` in Android Studio.
     * Build and run the application on your emulator or physical device.
 
+      
+<img width="289" height="500" alt="image" src="https://github.com/user-attachments/assets/64afab0d-3055-4970-b1f3-a7f387ec0f70" />
+
 
 To function correctly, the app requests the following permissions:
 * `ACTIVITY_RECOGNITION`: Required for the step counter sensor to track daily movement.
