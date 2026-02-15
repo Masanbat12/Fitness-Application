@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="workout_locked">🔒 Workout Locked</string>
+    <string name="pay_10_hearts_to_unlock_this_session">Pay 10 Hearts to unlock this session.</string>
+    <string name="unlock_10">Unlock (10 ❤️)</string>
+    <string name="complete_workout_15_hearts">Complete Workout (+15 Hearts)</string>
+    <string name="default_web_client_id">1069652544808-613pcpaiphalssaf9c87hkg2i6hp9nfr.apps.googleusercontent.com</string>
+</resources>

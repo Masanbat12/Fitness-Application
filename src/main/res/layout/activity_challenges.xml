@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F2F1"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Challenges"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#00695C"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/tvHeartsBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Hearts: 0 ❤️"
+            android:textSize="20sp"
+            android:textColor="#004D40"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnChallenge1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Run 1 km (+20 ❤️)"
+            android:textSize="18sp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#004D40"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnChallenge2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="50 Push-ups (+30 ❤️)"
+            android:textSize="18sp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#004D40"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnChallenge3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="No Sugar Today (+50 ❤️)"
+            android:textSize="18sp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#004D40"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnChallenge4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Sleep 8 Hours (+40 ❤️)"
+            android:textSize="18sp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#004D40"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
