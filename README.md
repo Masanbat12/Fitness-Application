@@ -1,6 +1,11 @@
 # Fitness-Application
 FitnessApp is a comprehensive Android application built to help users stay active, track their progress, and achieve their fitness goals. It combines daily step tracking, customizable workout routines, and gamified challenges to keep users motivated.
 
+### Logo:
+
+<img width="180" height="180" alt="image" src="https://github.com/user-attachments/assets/856e7d0d-6a2b-46e0-b575-0e64d710cf32" />
+
+
 ## ✨ Key Features
 
 * **Secure Authentication:** User login and registration using Firebase Authentication, including Email/Password and Google Sign-In integration.
@@ -36,7 +41,6 @@ Follow these steps to set up the project locally on your machine.
 2.  **Open the project:**
     Open Android Studio, select `File > Open`, and choose the cloned `FitnessApp` directory.
 3.  **Firebase Setup:**
-    * Go to the [Firebase Console](https://console.firebase.google.com/).
     * Create a new project and add an Android app with the package name `com.example.fitnessapp`.
     * Download the `google-services.json` file and place it in the `app/` directory of this project.
     * Enable **Authentication** (Email/Password & Google) and **Firestore Database** in your Firebase console.
